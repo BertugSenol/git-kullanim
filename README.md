@@ -400,4 +400,4 @@ komunutunu kullanmanız gerekmektedir. Böylelikle lokal bilgisayarınızdaki di
 
 ![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-pull-4.png "Git Pull")
 
----
+----
