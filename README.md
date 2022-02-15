@@ -25,7 +25,7 @@ Linux için [buraya](https://git-scm.com/download/linux) tıklayın ve Git'i kur
 
 Kurulumu tamamladıktan sonra terminalde `git` komutunu çalıştırabiliyor olmanız gerekiyor.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/Git-kurulum.png "Terminal")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/Git-kurulum.png "Terminal")
 
 ##### Git için Terminal Yapılandırma
 
@@ -43,7 +43,7 @@ yazarak da varsayılan terminalizi tekrardan _zsh_ yapabilirsiniz.
 
 > Terminalde isminizin yanında master # yazısını göreceksiniz.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/Git-baslangic.png "Terminal")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/Git-baslangic.png "Terminal")
 
 ### Git Yapılandırma
 
@@ -99,7 +99,7 @@ Git repository'si ile işlem yapmadan önce öncelikle git reposunun oluşturulm
 
 `$ cd <"Gitmek istediğiniz dosyanın yolu">`
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-path.png "cd komutu")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-path.png "cd komutu")
 
 Çalışmak istediğimiz dosya içine bu dosyanın bir git projesi olduğunu belirtmek için terminale
 
@@ -107,7 +107,7 @@ Git repository'si ile işlem yapmadan önce öncelikle git reposunun oluşturulm
 
 yazmamız gerekmektedir.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-init.png "git init")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-init.png "git init")
 
 `git init` komutu git'in dizindeki takip etmesi için gerekli olan bütün dosyaları dizinin içine **.git** adlı gizli bir dosyanın içine kurar. Başındaki nokta kurulacak olan dizinin gizli olacağı anlamına gelir.
 
@@ -117,11 +117,11 @@ Git kullanmanın en büyük avantajlarından birisi de başka bilgisayarlardan k
 
 GitHub'tan kendi bilgisayarınıza repo klonlamak isterseniz klonlamak istediğiniz projenin url adresini kopyalamanız gerekmektedir. Url adresine repo sayfasında bulunan **Code** sekmesinde bulunan *web url*sinden ulaşabilirsiniz.
 
-![Web](/users/bertugsenol/Desktop/Ekran-Resimleri/git-klon.png "Git Clone")
+![Web](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-klon.png "Git Clone")
 
 `$ git clone <"local-bilgisayarımıza-çekmek-istediğimiz-reponun-url-adresi">`
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/terminal-klon.png "Git Clone")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/terminal-klon.png "Git Clone")
 
 > `git clone` komutu kullanıldığında mevcut çalışma dizininizin içine klonladığınız repo için yeni bir dizin oluşturur. Bu terminalinizde anlık olarak bulunduğunuz *path*'i değiştirmez. Bu yüzden terminalden `cd` komutu ile klonladığınız dizinin içine gitmeniz gerekmektedir.
 
@@ -133,7 +133,7 @@ Ana araçlarımızdan birisi olan `$ git status` komutu, mevcut çalışma dizin
 
 `$ git status`
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-status.png "Git Status")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-status.png "Git Status")
 
 > Şu anda **Working Directory**'de .DS-Store adlı dosyamız dışında herhangi bir dosya olmadığı için git hiçbir dosyamızı takip etmiyor.
 >> .DS_Store, MacOS bilgisayarlarda dizinin Finder bilgilerini depoladığı dosyadır. Herhangi bir git reposunda kullanımı yoktur. **.gitignore** dosyasının içine ekleyebilirsiniz. Eğer ki zaten reponuzda yer alıyorsa da `.gitignore` dosyasına ekledikten sonra `git rm --cached .DS_Store` komutuyla sisteminizden kaldırabilirsiniz.
@@ -158,7 +158,7 @@ Aldığımız her commit'e, commit hakkında bir mesaj bırakabiliriz. Bu eski v
 
 `$ git log`
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-log.png "Git Log")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-log.png "Git Log")
 
 Klonladığımız repoda yapılan değişikleri görmek için yazdığımız `git log` komutu bize birden fazla bilgi verir.
 
@@ -184,7 +184,7 @@ Yapılan commit işlemlerinin hepsini görebilmek için;
 
 komutu ile de yapılan commit işlemlerini tek satır halinde görebiliriz. Commit'in SHA kodunun ilk 7 hanesini gösterir. Hangi dosya üzerinde değişiklik yapıldığı hakkında bilgi vermez.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-oneline.png "Git Oneline")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-oneline.png "Git Oneline")
 
 ##### git log --stat
 
@@ -192,7 +192,7 @@ komutu ile de yapılan commit işlemlerini tek satır halinde görebiliriz. Comm
 
 komutu ile yapılan commit işlemlerini daha detaylı görebilirsiniz. Düzenleme yapılan dosyaları gösterir.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-stat.png "Git Stat")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-stat.png "Git Stat")
 
 > Yeşil renkli +'lar ve kırmızı renkli -'ler bize o commit işleminde yapılan eklemeler ve çıkarmaların kaçar satır olduğu hakkında bilgiler verir.
 
@@ -202,7 +202,7 @@ komutu ile yapılan commit işlemlerini daha detaylı görebilirsiniz. Düzenlem
 
 komutu ile düzenlenen dosya içerisinde aslında hangi değişikliklerin yapıldığı bilgisini alabiliriz.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-log-p.png "Git Log -p")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-log-p.png "Git Log -p")
 
 - 1 - düzenleme yapılan dosyanın hangisi olduğunu belirtir.
 - 2 - düzenleme yapılan dosyanın eski ve yeni versiyon isimlerini söyler.
@@ -230,7 +230,7 @@ komutu `git log -p` komutu ile benzer çalışmaktadır. `git show` komutunu tek
 
 komutu ilk 7 hanesi "2fad73f" olan commit işleminin detaylarını gösterir.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-show.png "Git Show")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-show.png "Git Show")
 
 ### Working Directory - Staging Index - Repository Bölgeleri ve Commit İşlemi
 
@@ -240,7 +240,7 @@ komutu ilk 7 hanesi "2fad73f" olan commit işleminin detaylarını gösterir.
 
     `$ git add <"commit-edilmesini-istediğimiz-dosyanın-adı">`
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-add.png "Git Add")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-add.png "Git Add")
 
 > text-2-new.txt dosyasında değişiklik yaptıktan sonra `git add text-2-new.txt` komutunu yazıyoruz.
 
@@ -266,7 +266,7 @@ komutu ilk 7 hanesi "2fad73f" olan commit işleminin detaylarını gösterir.
 
       - `git log` komutu ile yapılan commit işleminin kontrolünü sağlayabilirsiniz.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-stages.png "Git Stages")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-stages.png "Git Stages")
 
 ### Git Diff
 
@@ -284,7 +284,7 @@ Projenin yapısında yer almasını istediğimiz fakat commit edilmesini istemed
 
 komutu ile gizli bir `.gitignore` dosyası oluşturduktan sonra terminale git'in takip etmesini istemediğiniz dosyanın adını yazmanız o dosyanın bundan sonra git tarafından *ignore* edilmesini sağlayacaktır.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-ignore.png "Git Ignore")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-ignore.png "Git Ignore")
 
 ### Terminal Üzerinden Dosya Silme İşlemi
 
@@ -300,22 +300,22 @@ komutu ile gizli bir `.gitignore` dosyası oluşturduktan sonra terminale git'in
 
 komutu ile eski bir versiyona dönebiliriz. Komutun sonunda yer alan "**.**", bütün dosyaların eski versiyonalara döneceği anlamına gelir. Sadece belli dosyaların eski versiyona dönmesini istiyorsanız "**.**" yerine eski versiyona dönmesini istediğiniz dosyanın adını yazmanız yeterlidir.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-checkout.png "Git Checkout - Versiyon Değiştirme")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-checkout.png "Git Checkout - Versiyon Değiştirme")
 
 > Şu anda projede alınan 2 adet commit işlemi var ve güncel olan commit işlemi, yanında (**HEAD -> master**) yazan commit'tir.
 > Yeni bir commit işlemi yapalım.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-checkout-2.png "Git Checkout - Versiyon Değiştirme")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-checkout-2.png "Git Checkout - Versiyon Değiştirme")
 
 > Yeni commit işlemi yapıldı ancak siz eski versiyona dönmek istiyorsunuz. Komutumuzu yazalım.
 
 `$ git checkout fa5d9ec`
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-checkout-3.png "Git Checkout - Versiyon Değiştirme")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-checkout-3.png "Git Checkout - Versiyon Değiştirme")
 
 > Yapılan versiyon değişikliğini kontrol etmek amaçlı terminale `git log` yazalım.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-checkout-4.png "Git Checkout - Versiyon Değiştirme")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-checkout-4.png "Git Checkout - Versiyon Değiştirme")
 
 > Eski versiyonumuza döndük.
 
@@ -377,17 +377,27 @@ GitHub, git projeleri için bir depolama alanıdır. Bu depolama alanı yapılan
 
 Projede açılan dalların, projenin son aşamasında birleştirilmesi gerekir. Birden fazla branch'in olduğu projede yapılan değişiklikleri ana dalda birleştirmek için master branch için pull request atılmalıdır.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-pull.png "Git Pull")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-pull.png "Git Pull")
 
 - Projenin dallarını, pull request sekmesine tıkladığımızda görebiliriz. **Compare & pull request** ya da **new pull request**'e tıkladıktan sonra `base:<"ana-dal">, compare:<"yan-dal">` olacak şekilde **Create pull request**'e tıklayın.
   - Pull request oluşturmanız için dalların *merge* edilmeye uygun olması gerekmektedir.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-pull-2.png "Git Pull")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-pull-2.png "Git Pull")
 
 - Tekrardan aşağıda yer alan **Create pull request** butonuna bastıktan sonra karşımıza *merge pull request* seçeneği çıkacaktır.
 
-![Terminal](/users/bertugsenol/Desktop/Ekran-Resimleri/git-pull-3.png "Git Pull")
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-pull-3.png "Git Pull")
 
 - Daha sonrasında **Confirm merge** diyerek *pull request* işlemini tamamlıyoruz.
+
+### GitHub Üzerinde Yapılan Değişiklikleri Kendi Bilgisayarınıza Çekme
+
+GitHub üzerinde yaptığınız değişiklikleri daha sonrasında kendi dosya dizininize çekmek için
+
+`$ git pull`
+
+komunutunu kullanmanız gerekmektedir. Böylelikle lokal bilgisayarınızdaki dizin güncel hale gelecektir.
+
+![Terminal](/users/bertugsenol/git-projects/git-hub/Git-Kullanim/Ekran-Resimleri/git-pull-4.png "Git Pull")
 
 ---
